@@ -1,10 +1,10 @@
-import { BASE_URL, COUNTRY_URL, KEY } from "../consts";
+import { BASE_URL, COUNTRY_URL, KEY, RAPID_API_KEY } from "../consts";
 
 const getCountry = async () => {
   const response = await fetch(COUNTRY_URL, {
     method: "GET",
     headers: {
-      "x-rapidapi-key": process.env.REACT_APP_API_KEY,
+      "x-rapidapi-key": RAPID_API_KEY,
       "x-rapidapi-host": "ajayakv-rest-countries-v1.p.rapidapi.com",
     },
   });
