@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Regions from "./components/Regions";
+import Cryptos from "./components/Cryptos";
 
 export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Regions />} />
+        <Route path="/" element={<Cryptos />} />
       </Routes>
     </Router>
   );
