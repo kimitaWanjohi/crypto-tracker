@@ -1,4 +1,2 @@
-export const KEY = process.env.REACT_APP_API_KEY;
-export const RAPID_API_KEY = process.env.REACT_APP_RAPID_API_KEY;
-export const BASE_URL = "http://api.openweathermap.org/data/2.5";
-export const COUNTRY_URL = "https://ajayakv-rest-countries-v1.p.rapidapi.com/rest/v1/all";
+export const API_KEY = process.env.REACT_APP_COINLAYER_API_KEY;
+export const API_URL = "http://api.coinlayer.com/list";
