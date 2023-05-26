@@ -11,6 +11,6 @@ export default function Cryptos() {
     dispatch(fetchCryptos());
   }, [dispatch]);
   if (loading) return <h1 className="text-4xl">Loading...</h1>;
-  if (error) return <h1 className="text-4xl">{error}</h1>;
-  return <h1 className="text-4xl">{JSON.stringify(cryptos)}</h1>;
+  if (error) return <h1 className="text-4xl container">{error}</h1>;
+  return <h1 className="text-xl truncate">{JSON.stringify(cryptos)}</h1>;
 }
