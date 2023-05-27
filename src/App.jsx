@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Cryptos from "./components/Cryptos";
-// eslint-disable-next-line import/no-cycle
+import Crypto from "./components/Crypto";
 import Navbar from "./components/Navbar";
 
 export default function App() {
@@ -13,6 +13,7 @@ export default function App() {
           <Navbar dark={dark} setDark={setDark} />
           <Routes>
             <Route path="/" element={<Cryptos />} />
+            <Route path="/:id" element={<Crypto />} />
           </Routes>
         </div>
       </div>
