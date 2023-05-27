@@ -13,6 +13,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [Future Features ](#future-features-)
   - [🚀 Live Demo](#-live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -46,7 +47,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Does Math calculations**
+- **Tracks all cryptos**
+
+### Future Features <a name="future-features"></a>
+
+- [] Add a live tracker for prices
+- [] Add a news section for crypto news
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
