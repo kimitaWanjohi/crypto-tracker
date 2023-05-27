@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar({ dark, setDark }) {
   return (
-    <nav className="px-4 py-3 dark:bg-gray-900 bg-white shadow-lg">
+    <nav className="px-4 py-3 dark:bg-gray-900 bg-gray-200 shadow-lg sticky top-0 z-10">
       <div className="container flex justify-between mx-auto">
         <NavLink
           to="/"

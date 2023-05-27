@@ -1,6 +1,18 @@
+/* eslint-disable  */
+import { AiOutlineArrowRight } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
+
 export default function CryptoList({ crypto }) {
+  const navigate = useNavigate();
+
   return (
-    <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-lg shadow-md p-4">
+    <div
+      onClick={() => navigate(crypto.name)}
+      className="w-full relative bg-gray-200 dark:bg-gray-700 rounded-lg shadow-md p-4 hover:dark:bg-gray-600 "
+    >
+      <div className="absolute top-1 right-1 dark:text-gray-400">
+        <AiOutlineArrowRight className="text-2xl" />
+      </div>
       <div className="flex flex-col justify-between items-start">
         <div className="flex flex-col justify-between">
           <img

@@ -9,7 +9,7 @@ export default function App() {
   return (
     <Router>
       <div className={`${dark ? "dark" : ""}`}>
-        <div className="bg-indigo-900 dark:bg-indigo-950 h-1 w-full">
+        <div className="bg-white dark:bg-gray-900 w-full">
           <Navbar dark={dark} setDark={setDark} />
           <Routes>
             <Route path="/" element={<Cryptos />} />
