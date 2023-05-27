@@ -14,7 +14,7 @@ describe("Cryptos", () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  it("renders a list of missions", () => {
+  it("renders cryptos page", () => {
     const tree = renderer
       .create(
         <Provider store={store}>
