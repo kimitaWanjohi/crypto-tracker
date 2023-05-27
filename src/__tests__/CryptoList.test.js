@@ -55,7 +55,7 @@ describe("CryptoList cryptos={mockCrypto}", () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  it("renders a list of missions", () => {
+  it("renders a list of cryptos", () => {
     const tree = renderer
       .create(
         <Provider store={store}>
