@@ -23,7 +23,9 @@ const cryptosSlice = createSlice({
       })
       .addCase(fetchCryptos.fulfilled, (state, action) => {
         state.status = "success";
-        state.cryptos = action.payload;
+        const list = action.payload;
+        const cryptos = Object.entries(list.crypto);
+        state.cryptos = cryptos;
       })
       .addCase(fetchCryptos.rejected, (state) => {
         state.status = "failed";
