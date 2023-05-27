@@ -8,7 +8,7 @@ export default function App() {
   const [dark, setDark] = useState(true);
   return (
     <Router>
-      <div className={`${dark ? "dark" : ""}`}>
+      <div className={`${dark ? "dark" : ""} bg-white dark:bg-gray-800`}>
         <Navbar dark={dark} setDark={setDark} />
         <Routes>
           <Route path="/" element={<Cryptos />} />
