@@ -13,13 +13,13 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-    - [Future Features ](#future-features-)
   - [🚀 Live Demo](#-live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
   - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -49,10 +49,6 @@
 
 - **Tracks all cryptos**
 
-### Future Features <a name="future-features"></a>
-
-- [] Add a live tracker for prices
-- [] Add a news section for crypto news
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,6 +101,14 @@ Install this project with:
 - [@Twitter](https://twitter.com/kimitaw)
 - [@LinkedIn](https://linkedin.com/in/kimitawanjohi)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[ Add a live tracker for crypto prices ]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,6 +129,7 @@ If you like this project feel free to leave comments and contact via given autho
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - [microverse](https://www.microverse.org/)
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
