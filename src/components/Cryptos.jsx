@@ -13,7 +13,7 @@ export default function Cryptos() {
   }, [dispatch]);
 
   return (
-    <div className="w-full mx-auto dark:bg-gray-800 bg-white">
+    <div className="w-full mx-auto min-h-screen dark:bg-gray-800 bg-white">
       <h1 className="text-4xl dark:text-gray-900  my-2 font-bold text-center">
         Cryptos
       </h1>
